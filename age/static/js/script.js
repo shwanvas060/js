@@ -4,7 +4,6 @@ function ageInDays() {
     var ageInDayss = (new Date().getFullYear()-brithYear)*365;
     var textAnswer = 'You are ' + ageInDayss + ' days old';
     document.getElementById("result").innerHTML=textAnswer;
-
 }
 function reset(){
     var reset = '  ';
